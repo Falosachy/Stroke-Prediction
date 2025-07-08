@@ -4,14 +4,18 @@ Predicting patient stroke risk from routine clinical data using Decision Tree, L
 
 **Project Overview**
 
-Stroke remains a leading cause of disability and death worldwide. In this project, we leverage routinely collected clinical features—age, BMI, hypertension status, heart disease history, smoking status, and more to build and compare three interpretable classifiers for predicting stroke risk. Our end-to-end pipeline ensures robust handling of data quality issues and addresses class imbalance to deliver reliable risk assessments.
+Stroke remains a leading cause of disability and death worldwide. In this project, we leverage routinely collected clinical features age, BMI, hypertension status, heart disease history, smoking status, and more to build and compare three interpretable classifiers for predicting stroke risk. Our end-to-end pipeline ensures robust handling of data quality issues and addresses class imbalance to deliver reliable risk assessments.
 
 **What You’ll Find Here**
 
 •	Data Preprocessing: Dropped irrelevant identifiers and outliers. Median imputation for missing numerical values; mode or "Unknown" fill-ins for categorical gaps.
+
 •	Feature Encoding & Balancing: One-hot encoding of categorical variables (e.g., smoking status, work type) and SMOTE oversampling to correct class imbalance.
+
 •	Model Training: Implementation of Decision Tree, Logistic Regression, and Random Forest classifiers with stratified 80%/20% train/test splits.
+
 •	Evaluation: Evaluation using accuracy, precision, recall, F1-score, and ROC-AUC. Includes ROC curves for visual trade-off analysis.
+
 •	Interpretation & Insights: Feature importance rankings and discussion of key clinical predictors driving stroke risk predictions.
 
 **Getting Started**
